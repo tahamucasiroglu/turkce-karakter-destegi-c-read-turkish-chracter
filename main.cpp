@@ -1,5 +1,7 @@
 void metin_al(){
 //ü=129 Ü=154 i=105 İ=152 ş=159 Ş=158 ç=135 Ç=128 ö=148 Ö= 153 ğ=167 Ğ=166 boşluk=32 enter=10
+	int temp[1000],size;
+	string metin;
 	for(int i=0;i<10000;i++){
 		scanf("%c",&temp[i]);
 		if(temp[i]==10){
@@ -46,8 +48,5 @@ void metin_al(){
 				metin+=(char)temp[i];
 				break;
 		}
-	}
-	for(int i=0;i<size;i++){
-		cout<<temp[i]<<endl;
 	}
 }
